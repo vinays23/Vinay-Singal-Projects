@@ -1,3 +1,5 @@
+# Here, I am creating a BinHeap class to create many different operations on a heap structure.
+
 class BinHeap:
     def __init__(self):
         self.heapList = [0]
