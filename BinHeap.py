@@ -1,18 +1,17 @@
-# The goal of this project is to create my own binary tree structure where each node in the tree is less than or equal to the child nodes. 
+# Requirement: Build a minheap wihout using Python delivered functions; using a customizied binary tree structure where each node in the tree is less than or equal to the child nodes.
+# Solution: Create a customized binary tree structure.  
 
-# In other words, I am creating a method that a user can utilize to establish a minheap.
-
-# To accomplish this goal in Python there must be functions within a class that we can use to create our minheap. 
+# HOW DID I CONSTRUCT THE SOLUTION:
 
 class BinHeap:
 
-# First I am initializing the class and creating a heap structure that we will work with throughout this class.
+# STEP 1: Function 1 - Initialize the class and create a heap structure to use throughout this method.
 
     def __init__(self):
         self.heapList = [0]
         self.currentSize = 0
 
-# The next step is to create a function which moves a node up the tree structure if it is smaller than its current parent's value.        
+# STEP 2: Function 2 - Moves a node up the tree structure if it is smaller than its current parent's value.        
         
     def percUp(self,i):
         while i // 2 > 0:
@@ -22,7 +21,8 @@ class BinHeap:
              self.heapList[i] = tmp
           i = i // 2
         
-# Using this function we are allowing the user to add new elements to the heap.        
+# STEP 3: Function 3 - Enables the user to add new elements to the heap.  
+
     def insert(self,k):
         self.heapList.append(k)
         self.currentSize = self.currentSize + 1
