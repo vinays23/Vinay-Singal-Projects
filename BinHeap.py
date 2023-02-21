@@ -1,4 +1,6 @@
-# Here, I am creating a BinHeap class to create many different operations on a heap structure.
+# The goal of this project is to create my own binary tree structure where each node in the tree is less than or equal to the child nodes. 
+
+# In other words, I am creating a minheap.
 
 class BinHeap:
     def __init__(self):
