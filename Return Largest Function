@@ -1,4 +1,4 @@
-## hw 3 part 1
+# I am simply finding and returning the largest value within a given list.
 
 def findLargest(alist):
     if len(alist) <= 1:
