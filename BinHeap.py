@@ -79,7 +79,7 @@ class BinHeap:
             alist.append(self.delMin())
         self.buildHeap(alist)
 
-# STEP 9: Function 9 - Prints the sorted heap        
+# STEP 9 (FINAL STEP): Function 9 - Prints the sorted heap        
         
     def printList(self):
         print(self.heapList[1:])
