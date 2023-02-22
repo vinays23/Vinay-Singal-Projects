@@ -1,4 +1,6 @@
-##Number 1
+#GOAL: Create different search methods without the use of Python's built-in functions.
+
+#Solution:
 
 def frisbeeSort(alist):
    length = len(alist) 
@@ -13,12 +15,6 @@ def frisbeeSort(alist):
        alist[:length] = reversed(alist[:length])
        length -= 1 
 
-
-
-
-
-
-##Number 2
 def bubbleSort(alist):
     for passnum in range(len(alist)-1,0,-1):
         for i in range(passnum):
@@ -27,8 +23,6 @@ def bubbleSort(alist):
                 alist[i] = alist[i+1]
                 alist[i+1] = temp
 
-
-
     for a in range(len(alist)):
         for x in range(0, len(alist)-a-1):
             if alist[x] > alist[x+1]:
@@ -36,11 +30,6 @@ def bubbleSort(alist):
                 alist[x] = alist[x+1]
                 alist[x+1] = swap
 
-
-
-
-
-##Number 3
 def mergeSort(alist):
     print("Splitting ",alist)
     if len(alist)>1:
