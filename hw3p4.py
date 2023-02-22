@@ -1,3 +1,7 @@
+#GOAL: Create a ternary search without built-in functions in Python.
+
+#SOLUTION:
+
 def ternarySearchRec(alist, item):
     if alist == []:
         return False
