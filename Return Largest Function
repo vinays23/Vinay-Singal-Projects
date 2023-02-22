@@ -1,4 +1,4 @@
-# I am simply finding and returning the largest value within a given list.
+# GOAL: Find and return the largest value within a given list.
 
 def findLargest(alist):
     if len(alist) <= 1:
