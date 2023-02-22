@@ -5,9 +5,8 @@ teamRoster = {}
 def outputRoster():
     print ("ROSTER")
     for jerseyNumber in sorted(teamRoster.keys() ):
-        print (f"Jersey number: {jerseyNumber}, Rating: {teamRoster[jerseyNumber]}"
-)
-    print ()
+        print (f"Jersey number: {jerseyNumber}, Rating: {teamRoster[jerseyNumber]}")
+    print()
 def addPlayer():
     jerseyNumber = int(input("Enter a new player's jersey number:\n"))
     teamRoster[jerseyNumber] = int(input("Enter the player's rating:\n"))
